@@ -12,10 +12,10 @@ function Terminal(props) {
     let birthDate = new Date(1070668800000);
     let millisecondsPerYear = 1000 * 60 * 60 * 24 * 365.25;
     setAge(
-      ((today - birthDate) / millisecondsPerYear).toString().substring(0, 2)
+      ((today - birthDate) / millisecondsPerYear).toString().substring(0, 2),
     );
     setMilliseconds(
-      ((today - birthDate) / millisecondsPerYear).toString().substring(3, 12)
+      ((today - birthDate) / millisecondsPerYear).toString().substring(3, 12),
     );
   }, 50);
 
@@ -28,7 +28,7 @@ function Terminal(props) {
           <span className="text-white"> init</span>
         </p>
         <br />
-        <Line> 
+        <Line>
           Hello, I&apos;m <b>bernardo</b>
           <Link url="https://pronoun.gdn/they?or=she&or=he" color="teal">
             <sub>(any pronouns)</sub>

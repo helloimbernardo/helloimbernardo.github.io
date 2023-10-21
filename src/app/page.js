@@ -1,6 +1,6 @@
-import './wallpapers.css';
+import "./wallpapers.css";
 
-import Terminal from './components/Terminal';
+import Terminal from "./components/Terminal";
 
 function selectWallpaper() {
   let names = [
@@ -16,8 +16,10 @@ function selectWallpaper() {
 
 export default function Home() {
   return (
-    <main className={`overflow-hidden min-h-screen min-w-full grid place-items-center bg ${selectWallpaper()}`}>
+    <main
+      className={`overflow-hidden min-h-screen min-w-full grid place-items-center bg ${selectWallpaper()}`}
+    >
       <Terminal />
     </main>
-  )
+  );
 }
