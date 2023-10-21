@@ -1,0 +1,28 @@
+.bg {
+  background: black no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-backpack {
+  background-image: url("img/bg-backpack.jpg");
+}
+
+.bg-louvre {
+  background-image: url("img/bg-louvre.jpg");
+}
+
+.bg-malaga {
+  background-image: url("img/bg-malaga.jpg");
+}
+
+.bg-parismetro1 {
+  background-image: url("img/bg-parismetro1.jpg");
+}
+
+.bg-parismetro2 {
+  background-image: url("img/bg-parismetro2.jpg");
+}
+
+.bg-vienna {
+  background-image: url("img/bg-vienna.jpg");
+}
