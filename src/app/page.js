@@ -1,6 +1,6 @@
 import './wallpapers.css';
-import Terminal from './components/Terminal';
 
+import Terminal from './components/Terminal';
 
 function selectWallpaper() {
   let names = [
