@@ -13,7 +13,7 @@ import Draggable, { DraggableCore } from "react-draggable";
  */
 function Window(props) {
   return (
-    <Draggable bounds="parent" {...props.draggable}>
+    <Draggable bounds="parent" {...props.draggable} cancel=".draggable-cancel">
       <div className="w-4/5 xl:w-2/5">
         <div className="w-full shadow-2xl subpixel-antialiased rounded bg-black border-black">
           <div className="flex items-center rounded-t text-center bg-white cursor-move">
