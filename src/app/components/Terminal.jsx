@@ -93,7 +93,7 @@ function Link(props) {
     green: "text-green-500",
   };
   return (
-    <a href={props.url} className={`${colors[props.color]} ${props.className}`}>
+    <a href={props.url} className={`${colors[props.color]} ${props.className} draggable-cancel`}>
       {props.bold ? <b>{props.children}</b> : props.children}
     </a>
   );
