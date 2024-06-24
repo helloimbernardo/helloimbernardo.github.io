@@ -1,3 +1,5 @@
+'use client';
+import { useState, useEffect } from 'react';
 import './wallpapers.css';
 import Terminal from './components/Terminal';
 
@@ -15,6 +17,12 @@ function selectWallpaper() {
 }
 
 export default function Home() {
+  const [wallpaper, setWallpaper] = useState('');
+
+  useEffect(() => {
+    setWallpaper(selectWallpaper());
+  }, []);
+
   return (
     <main className={`overflow-hidden min-h-screen min-w-full grid place-items-center bg ${selectWallpaper()}`}>
       <Terminal />
