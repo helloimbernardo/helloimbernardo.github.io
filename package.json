@@ -6,7 +6,8 @@
     "dev": "next dev",
     "lint": "next lint",
     "build": "next build",
-    "start": "npx serve out -p 3000"
+    "start": "npx serve out -p 3000",
+    "serve": "yarn start"
   },
   "dependencies": {
     "next": "13.5.6",
